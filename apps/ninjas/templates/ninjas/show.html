@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    {% load staticfiles %}
+    <link rel="stylesheet" href="{% static 'ninjas/css/materialize.css' %}">
+    <script type = 'text/javascript' src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type = 'text/javascript' src = "{% static 'ninjas/js/materialize.js' %}"></script>
+</head>
+<body>
+<img src="{% static 'ninjas/img/' %}{{ imgsrc }}">
+</body>
+</html>
